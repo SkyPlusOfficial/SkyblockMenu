@@ -1,0 +1,12 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/SkyPlusOfficial/SkyblockMenu
+build-by-default: true
+branches:
+- main
+projects:
+  SkyblockMenu:
+    path: ""
+    libs:
+      - src: muqsit/InvMenu/InvMenu
+        version: ^4.3.0
+        branch: "4.0"
+...
