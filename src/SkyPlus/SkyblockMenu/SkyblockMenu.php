@@ -42,7 +42,6 @@ class SkyblockMenu extends PluginBase {
             $this->menus["profile"] = $profile;
         }
         $this->indexes = array_column($this->menus, "index");
-        print_r($this->indexes);
 
         // Duplicate index check
         if (count(array_unique($this->indexes)) !== count($this->indexes)) {
