@@ -1,0 +1,205 @@
+---
+version: "1.0"    # Don't change this!
+name: "Skyblock Menu"
+# Item ID and meta to use when slot is empty
+empty-slot:
+  id: 101
+  meta: 0
+profile:
+  enabled: true
+  index: 13
+  item:
+    id: 397
+    meta: 3
+  # {health}       = Get health points
+  # {armor_points} = Get armor points
+  # {food}         = Get hunger points
+  # {ping}         = Get network latency/ping
+  # {level}        = Get XP level
+  # {scale}        = Get player scale (1.0 = normal)
+  name: |-
+    &eYour Profile
+    &c&l❤️ Health &r&f{health} HP
+    &a&l❈ &r&dDefense &r&f{armor_points}
+    &d&l⚘ &r&dFood {food}
+    &a&l⚠ &r&aPing &f{ping} &fms
+    &r&b&l☯ &r&bExperience &f{level} Lvl
+    &r&9&l⛇ &r&9Size &f{scale}
+menus:
+  skill:
+    enabled: true
+    index: 19    # Don't use index below 0, above 53 or exactly 49 (reserved for exit button)!
+    item:
+      id: 276
+      meta: 0
+    name: |-    # Mutliline without '\n'
+      &l&eSkills
+
+      &r&7(Right-Click)
+    command: ""    # Leave empty to disable command
+  collection:
+    enabled: true
+    index: 20
+    item:
+      id: 321
+      meta: 0
+    name: |-
+      &l&eCollection
+
+      &r&7(Right-Click)
+    command: ""
+  recipes:
+    enabled: true
+    index: 21
+    item:
+      id: 340
+      meta: 0
+    name: |-
+      &l&eCustom Recipes
+
+      &r&7(Right-Click)
+    command: ""
+  trade:
+    enabled: true
+    index: 22
+    item:
+      id: 388
+      meta: 0
+    name: |-
+      &l&eTrade
+
+      &r&7(Right-Click)
+    command: ""
+  quest:
+    enabled: true
+    index: 23
+    item:
+      id: 386
+      meta: 0
+    name: |-
+      &l&eQuest
+
+      &r&7(Right-Click)
+    command: ""
+  event:
+    enabled: true
+    index: 24
+    item:
+      id: 347
+      meta: 0
+    name: |-
+      &l&eEvents
+
+      &r&7(Right-Click)
+    command: ""
+  ender-chest:
+    enabled: true
+    index: 25
+    item:
+      id: 130
+      meta: 0
+    name: |-
+      &l&eEnder Chest
+
+      &r&7(Right-Click)
+    command: ""
+  potions-shop:
+    enabled: true
+    index: 29
+    item:
+      id: 373
+      meta: 0
+    name: |-
+      &l&ePotions
+
+      &r&7(Right-Click)
+    command: ""
+  pets:
+    enabled: true
+    index: 30
+    item:
+      id: 352
+      meta: 0
+    name: |-
+      &l&ePets
+
+      &r&7(Right-Click)
+    command: ""
+  crafting-table:
+    enabled: true
+    index: 31
+    item:
+      id: 58
+      meta: 0
+    name: |-
+      &l&eWorkbench
+
+      &r&7(Right-Click)
+    command: ""
+  wardrobe:
+    enabled: true
+    index: 32
+    item:
+      id: 299
+      meta: 0
+    name: |-
+      &l&eWardrobe
+
+      &r&7(Right-Click)
+    command: ""
+  bank:
+    enabled: true
+    index: 33
+    item:
+      id: 41
+      meta: 0
+    name: |-
+      &l&eBank
+
+      &r&7(Right-Click)
+    command: ""
+  profile:
+    enabled: true
+    index: 36
+    item:
+      id: 397
+      meta: 1
+    name: |-
+      &l&eProfile
+
+      &r&7(Right-Click)
+    command: ""
+  island:
+    enabled: true
+    index: 45
+    item:
+      id: 345
+      meta: 0
+    name: |-
+      &l&eTravel Island
+
+      &r&7(Right-Click)
+    command: ""
+  island-settings:
+    enabled: true
+    index: 50
+    item:
+      id: 76
+      meta: 0
+    name: |-
+      &l&eIsland Settings
+
+      &r&7(Right-Click)
+    command: ""
+  fast-travel:
+    enabled: true
+    index: 53
+    item:
+      id: 467
+      meta: 0
+    name: |-
+      &l&eFast Travel
+
+      &r&7(Right-Click)
+    command: ""
+...

@@ -1,0 +1,18 @@
+---
+name: SkyblockMenu
+version: 1.0.0
+description: SkyblockMenu plugin for SkyPlus Minecraft server
+authors: [SkyPlus, Nomi]
+api: 4.0.0
+main: SkyPlus\SkyblockMenu\SkyblockMenu
+depend: [InvCrashFix]
+
+commands:
+  skyblockmenu:
+    description: Open skyblock menu
+    permission: skyblockmenu.open
+
+permissions:
+  skyblockmenu.open:
+    default: true
+...
